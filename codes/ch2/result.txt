@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.2, pytest-7.4.0, pluggy-1.2.0 -- /home/user/Repo/pytest/pt/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /home/user/Repo/pytest/Cards
+configfile: pytest.ini
+collecting ... collected 7 items
+
+test_card.py::test_field_access <- ../pt/code/ch2/test_card.py PASSED    [ 14%]
+test_card.py::test_defaults <- ../pt/code/ch2/test_card.py PASSED        [ 28%]
+test_card.py::test_equality <- ../pt/code/ch2/test_card.py PASSED        [ 42%]
+test_card.py::test_equality_with_diff_ids <- ../pt/code/ch2/test_card.py PASSED [ 57%]
+test_card.py::test_inequality <- ../pt/code/ch2/test_card.py PASSED      [ 71%]
+test_card.py::test_from_dict <- ../pt/code/ch2/test_card.py PASSED       [ 85%]
+test_card.py::test_to_dict <- ../pt/code/ch2/test_card.py PASSED         [100%]
+
+============================== 7 passed in 0.09s ===============================
